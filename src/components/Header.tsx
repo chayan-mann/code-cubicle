@@ -20,15 +20,15 @@ function Navbar({ className }: { className?: string }) {
     >
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Problem Statment">
-          <div className="flex flex-col space-y-4 text-sm">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Features">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Algochurn"
               href="https://algochurn.com"
@@ -53,15 +53,15 @@ function Navbar({ className }: { className?: string }) {
               src="/public/ai.webp"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
-          </div>
+          </div> */}
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
+        <MenuItem setActive={setActive} active={active} item="SignUp/Login">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
       </Menu>
     </div>

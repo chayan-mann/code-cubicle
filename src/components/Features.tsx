@@ -28,12 +28,12 @@ export const projects = [
       "LeafLens extends its monitoring capabilities by deploying drones for real-time, high-resolution imaging of large and inaccessible areas, ensuring comprehensive coverage.",
     link: "",
   },
-  {
-    title: "ZooScope",
-    description:
-      "The model employs advanced detection algorithms to identify and enumerate wildlife within forested environments, thereby facilitating regular wildlife monitoring and management for forest authorities.",
-    link: "",
-  },
+  // {
+  //   title: "ZooScope",
+  //   description:
+  //     "The model employs advanced detection algorithms to identify and enumerate wildlife within forested environments, thereby facilitating regular wildlife monitoring and management for forest authorities.",
+  //   link: "",
+  // },
   {
     title: "NotifyShield",
     description:
