@@ -1,7 +1,14 @@
 
 # LeafLens
-
 AI Powered Forest Management
+
+# Google Drive link of Presentation
+https://drive.google.com/drive/folders/1_DaRPQy8MBIAMntLaQtgnyYB9P6N7-8d?usp=sharing
+
+
+# Image Segmentation dataset
+https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation/data
+
 
 
 ## Prerequisites
