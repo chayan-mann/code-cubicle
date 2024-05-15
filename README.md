@@ -28,13 +28,13 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd code-cuicle/client
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  npm install next
 ```
 
 Start the frontend server:
