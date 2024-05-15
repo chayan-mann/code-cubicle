@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import img from "/public/ai.webp"
+import Link from "next/link";
+import SignupPage from "@/app/signup/page";
+import LoginPage from "@/app/signup/login/page";
+
 export default function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
@@ -55,7 +59,17 @@ function Navbar({ className }: { className?: string }) {
             />
           </div> */}
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="SignUp/Login">
+        <MenuItem setActive={setActive} active={active} item="Signup">
+          <Link href ="/signup"></Link>
+          {/* <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="/hobby">Hobby</HoveredLink>
+            <HoveredLink href="/individual">Individual</HoveredLink>
+            <HoveredLink href="/team">Team</HoveredLink>
+            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+          </div> */}
+        </MenuItem>
+        <MenuItem setActive={setActive} active={active} item="Login">
+          <Link href ="/login"></Link>
           {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
