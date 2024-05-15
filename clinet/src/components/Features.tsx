@@ -3,7 +3,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export default function CardHoverEffectDemo() {
   return (
-    <div className="max-w-screen bg-black relative top-[-1.5rem]  mx-auto px-8">
+    <div className="max-w-screen bg-black relative top-[-1.5rem]  mx-auto px-8" id="features">
       <h1 className="text-white text-5xl  py-10">Features</h1>
       <HoverEffect items={projects} />
     </div>
