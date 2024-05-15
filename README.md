@@ -34,7 +34,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install next
+  npm install
 ```
 
 Start the frontend server:
