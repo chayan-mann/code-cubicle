@@ -44,7 +44,9 @@ Start the frontend server:
 ```
 
 Start the backend server:
-# also download XAMPP for backend SQL work
+
+also download XAMPP for backend SQL work
 ```bash
     python server.py
+```
 
