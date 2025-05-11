@@ -2,6 +2,14 @@
 # LeafLens
 AI Powered Forest Management
 
+# Google Drive link of Presentation
+https://drive.google.com/drive/folders/1_DaRPQy8MBIAMntLaQtgnyYB9P6N7-8d?usp=sharing
+
+
+# Image Segmentation dataset
+https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation/data
+
+
 
 # Google Drive link of Presentation
 https://drive.google.com/drive/folders/1_DaRPQy8MBIAMntLaQtgnyYB9P6N7-8d?usp=sharing
@@ -27,7 +35,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd code-cuicle/client
 ```
 
 Install dependencies
@@ -42,8 +50,10 @@ Start the frontend server:
   npm run dev
 ```
 
-Start the frontend server:
+Start the backend server:
 
+also download XAMPP for backend SQL work
 ```bash
     python server.py
+```
 
